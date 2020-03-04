@@ -55,10 +55,12 @@ def total_gross(source)
   directors_totals_hash = directors_totals(source)
   
   while index < directors_totals_hash.length do
-    total += directors_totals_hash[index].value
+    total += directors_totals_hash[index]
     index += 1
   end
   total
 end
+
+puts directors_totals(directors_database)[0]
 
 
