@@ -61,6 +61,4 @@ def total_gross(source)
   total
 end
 
-puts directors_totals(directors_database)
-
 
