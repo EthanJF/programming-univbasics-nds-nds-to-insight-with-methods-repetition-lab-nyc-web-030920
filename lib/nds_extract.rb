@@ -62,6 +62,6 @@ def total_gross(source)
   total
 end
 
-puts list_of_directors(directors_database)
+puts directors_totals_hash[list_of_directors(directors_database)[0]]
 
 
